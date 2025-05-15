@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinich | Dendro</title>
+    <link rel="stylesheet" href="../../../elements/element.css">
+    <link rel="stylesheet" href="kinich.css">
+    <link rel="icon" href="../../../media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../../../home.html">
+            <div class="logo">
+                <img src="../../../media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="../../../login.html">LOGIN</a></li>
+                <li><a href="../../../news.html">NEWS</a></li>
+                <li><a href="../../../characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="../../../search.html">SEARCH</a></li>
+                <li><a href="../../../home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section1">
+            <a href="../../../elements/dendrochar.html">
+                <img src="../../../media/back.png" alt="Back Button" class="back-bttn">
+            </a>
+
+            <div class="main-container">
+                <!-- Left side: Character info -->
+                <div class="character-card">
+                    <div class="character-content">
+                        <div class="character-info">
+                            <h2 id="name">Kinich</h2>
+                            <p id="stars">★★★★★</p>
+                            <p id="info">
+                                A Saurian Hunter from the Scions of the Canopy with the Ancient Name MLP ("MLP," Malipo), Kinich is a taciturn individual who has a knack for calculating the price of any request — even wetwork — due to his utilitarian philosophy.
+                            </p>
+                        </div>
+                        <img src="kinichcard.png" alt="Picture of Kinich" class="kinich-img">
+                    </div>
+                </div>
+
+                <!-- Right side: Best Teams -->
+                <div class="best-teams">
+                    <h3>Best Teams</h3>
+
+                    <div class="team-wrapper">
+                        <img src="../../../media/left.png" class="section1-arrow" onclick="prevTeam()" alt="Back Slide">
+
+                        <div class="team-carousel">
+                            <div class="team-slide active">
+                                <div class="team-member">
+                                    <img src="options/t1kin.png" alt="Picture of Kinich">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Bennett/options/t1xian.png" alt="Picture of Xiangling">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1be.png" alt="Picture of Bennett">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1emi.png" alt="Picture of Emilie">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="options/t1kin.png" alt="Picture of Kinich">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Bennett/options/t1xian.png" alt="Picture of Xiangling">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1be.png" alt="Picture of Bennett">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t2fu.png" alt="Picture of Furina">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="options/t1kin.png" alt="Picture of Kinich">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1xi.png" alt="Picture of Xingqiu">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1be.png" alt="Picture of Bennett">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Thoma/options/t1tho.png" alt="Picture of Thoma">
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="../../../media/right.png" class="section1-arrow" onclick="nextTeam()" alt="Next Slide">
+                    </div>
+
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+        <div class="section2">
+            <div class="abilities">
+                <div class="talent-carousel-wrapper">
+                <img src="../../../media/left.png" class="section2-arrow left-arrow" onclick="prevTalent()" alt="Back Slide">
+
+                <div class="talent-carousel">
+                    <!-- Slide 1 -->
+                    <div class="talent-slide active">
+                        <h3 class="talent-title">Talent Priority</h3>
+                        <div class="talent"><img src="abilities/talent1.png" alt="Picture of Nightsun Style"></div>
+                        <div class="talent"><img src="abilities/talent2.png" alt="Picture of Canopy Hunter: Riding High"></div>
+                        <div class="talent"><img src="abilities/talent3.png" alt="Picture of Hail to the Almighty Dragonlord"></div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Weapons</h3>
+                        <div class="talent"><img src="abilities/weapon1.png" alt="Picture of Fang of the Mountain King"></div>
+                        <div class="talent"><img src="../../GEO/Itto/abilities/weapon2.png" alt="Picture of Beacon of the Reed Sea"></div>
+                        <div class="talent"><img src="../../GEO/Itto/abilities/weapon3.png" alt="Picture of Serpent Spine"></div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Artifacts</h3>
+                        <div class="talent"><img src="abilities/ab1.png" alt="Picture of 4-piece Obsidian Codex"></div>
+                        <div class="talent"><img src="abilities/ab2.png" alt="Picture of 4-piece Unfinished Reverie"></div>
+                        <div class="talent"><img src="abilities/ab3.png" alt="Picture of 4-piece Golden Troupe"></div>
+
+                    </div>
+                </div>
+                
+                <img src="../../../media/right.png" class="section2-arrow right-arrow" onclick="nextTalent()" alt="Next Slide">
+                </div>
+
+                <div class="section2-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h1 id="game">Featured Gameplay</h1>
+
+            <div class="game-play">
+                <iframe width="850" height="480"
+                    src="https://www.youtube.com/embed/WeYYgPWRxQ8?start=14" title="YouTube video player" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        
+            <h1 id="revs">Character Reviews</h1>
+
+            <div class="boxes">
+                <div class="strength">
+                    <h1>Character Strengths</h1>
+                    <div class="divider">
+                        <p>• Scalespiker Cannon's damage <i>scales massively,</i> giving Kinich <b>great frontloaded damage potential.</b></p>
+                        <p>• Elemental Skill lets Kinich <u>evade enemy attacks</u> <b>without</b> sacrificing DPS.</p>
+                        <p>• <b>Elemental Burst</b> is a good source of <u>off-field AoE Dendro Damage</u> that is flexible in its use, and also <b>extends</b> the duration of his <u>Nightsoul Blessing</u> during his skill.</p>
+                        <p>• Elemental Skill latches onto opponents and <b>automatically</b> targets them, eliminating any nuances when it comes to ranged opponents.</p>
+                    </div>
+                </div>
+
+                <div class="weakness">
+                    <h1>Character Weaknesses</h1>
+                    <div class="divider">
+                        <p>• Scalespiker Cannon during his Elemental Skill can be <b>shot <u>3 to 4 times</u> per rotation,</b> but the <i>timing</i> is <b>strict and performs slower</b> on teams that are <u>not focused on Burning or Burgeon.</u></p>
+                        <p>• Movement during his Elemental Skill requires <b>mastery for the foresight</b> on where to go, especially when going to the <i>glowing Blind Spot.</i></p>
+                        <p>• Is a <b>single-target unit</b> for the most part, requiring teammates or effective use of Scalespiker Cannon and Elemental Burst to <i>deal AoE damage.</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <script src="optionsKinich.js"></script>
+    <script src="abilitiesKinich.js"></script>
+</body>
+</html>

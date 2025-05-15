@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro Characters</title>
+    <link rel="stylesheet" href="element.css">
+    <link rel="icon" href="../media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="hydro">
+    <audio autoplay loop>
+        <source src="../media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <a href="../home.html">
+            <div class="logo">
+                <img src="../media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="../login.html">LOGIN</a></li>
+                <li><a href="../news.html">NEWS</a></li>
+                <li><a href="../characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="../search.html">SEARCH</a></li>
+                <li><a href="../home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- this back button image will lead the users back to element selection -->
+    <a href="../characters.html">
+        <img src="../media/back.png" alt="Back Button" class="back-bttn">
+    </a>
+
+    <main>
+        <div class="hydro-container">
+            <img src="../media/icon.png" alt="Genshin Impact Icon" height="50" width="50">
+            <h1>HYDRO</h1>
+
+            <div class="char-grid">
+                <!-- when clicked, user is lead to the character selection based on the element chosen -->
+                <a href="../elements/HYDRO/Ayato/ayato.html" class="char-crd">
+                    <img src="../elements/HYDRO/ayato.png" class="default-img" alt="Picture of Ayato">
+                </a>
+                <a href="../elements/HYDRO/Kokomi/kokomi.html" class="char-crd">
+                    <img src="../elements/HYDRO/kokomi.png" class="default-img" alt="Picture of Kokomi">
+                </a>
+                <a href="../elements/HYDRO/Tartaglia/tartaglia.html" class="char-crd">
+                    <img src="../elements/HYDRO/tartaglia.png" class="default-img" alt="Picture of Tartaglia">
+                </a>
+                <a href="../elements/HYDRO/Xingqiu/xingqiu.html" class="char-crd">
+                    <img src="../elements/HYDRO/xingqiu.png" class="default-img" alt="Picture of Xingqiu">
+                </a>
+                <a href="../elements/HYDRO/Barbara/barbara.html" class="char-crd">
+                    <img src="../elements/HYDRO/barbara.png" class="default-img" alt="Picture of Barbara">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+</body>
+</html>

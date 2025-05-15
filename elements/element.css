@@ -1,0 +1,326 @@
+/* Removes default spacing and ensures consistent sizing across all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #10203c;
+    margin: 0;
+}
+
+
+/* Logo inside the header */
+.logo img {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Unordered list: removes default bullets and spacing */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* to make list displayed side-by-side */
+}
+
+
+/* NAVIGATION */
+.navi a {
+    float: right; /* Placed on the right side of the nav bar */
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Lora", serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffca11;
+}
+
+nav a.active {
+    color: #ffca11;
+}
+
+body {
+    margin: 0;
+}
+
+.pyro {
+    background-image: url('../elements/PYRO/pyrobg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.back-bttn {
+    width: 105px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.pyro-container {
+    display: absolute;
+    border: 5px solid #870101;
+    background-color: #f3ce8899;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.default-img {
+    width: 235px;
+    height: 335px;
+}
+
+.char-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.char-crd {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+.char-crd:hover {
+    transform: scale(1.05);
+}
+
+.geo {
+    background-image: url('../elements/GEO/geobg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0.05px;
+}
+
+.geo-container {
+    display: absolute;
+    border: 5px solid #744217;
+    background-color: #e2be8ca5;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+.dendro {
+    background-image: url('../elements/DENDRO/dendrobg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dendro-container {
+    display: absolute;
+    border: 5px solid #234531;
+    background-color: #c2ccc6a7;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.anemo {
+    background-image: url('../elements/ANEMO/anemobg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.anemo-container {
+    display: absolute;
+    border: 5px solid #2a5a6e;
+    background-color: #dbf2f1bb;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+.hydro {
+    background-image: url('../elements/HYDRO/hydrobg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.hydro-container {
+    display: absolute;
+    border: 5px solid #144a71;
+    background-color: #defaffb2;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.cryo {
+    background-image: url('../elements/CRYO/cryobg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.cryo-container {
+    display: absolute;
+    border: 5px solid #35476a;
+    background-color: #e4ebf9a9;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.electro {
+    background-image: url('../elements/ELECTRO/electrobg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.electro-container {
+    display: absolute;
+    border: 5px solid #261ac7;
+    background-color: #f0eeffb5;
+    opacity: 2;
+    width: 1460px;
+    margin: auto;
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    color: #532a07;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+        /* FOOTER */
+
+footer {
+    background-color: #10203c;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    bottom: 0; /*always at the bottom of the site*/
+    width: 100%;
+    padding: 5px 5px;
+}
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 20px;
+    }
+
+    .navi a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .pyro-container,
+    .geo-container,
+    .dendro-container,
+    .anemo-container,
+    .hydro-container,
+    .cryo-container,
+    .electro-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .char-grid {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .char-crd {
+        width: auto;
+        height: auto;
+    }
+
+    .default-img {
+        width: 200px;
+        height: 300px;
+    }
+}

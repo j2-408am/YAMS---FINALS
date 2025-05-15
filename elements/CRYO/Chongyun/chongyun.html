@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chongyun | Cryo</title>
+    <link rel="stylesheet" href="../../../elements/element.css">
+    <link rel="stylesheet" href="chongyun.css">
+    <link rel="icon" href="../../../media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../../../home.html">
+            <div class="logo">
+                <img src="../../../media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="../../../login.html">LOGIN</a></li>
+                <li><a href="../../../news.html">NEWS</a></li>
+                <li><a href="../../../characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="../../../search.html">SEARCH</a></li>
+                <li><a href="../../../home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section1">
+            <a href="../../../elements/cryochar.html">
+                <img src="../../../media/back.png" alt="Back Button" class="back-bttn">
+            </a>
+
+            <div class="main-container">
+                <!-- Left side: Character info -->
+                <div class="character-card">
+                    <div class="character-content">
+                        <div class="character-info">
+                            <h2 id="name">Chongyun</h2>
+                            <p id="stars">★★★★</p>
+                            <p id="info">
+                                Born with an excess of yang (positive) energy, Chongyun has become a highly effective exorcist in Liyue — so effective to the point where he hasn't seen a spirit himself, as they immediately flee when he approaches.
+                            </p>
+                        </div>
+                        <img src="chongyuncard.png" alt="Picture of Chongyun" class="chongyun-img">
+                    </div>
+                </div>
+
+                <!-- Right side: Best Teams -->
+                <div class="best-teams">
+                    <h3>Best Teams</h3>
+
+                    <div class="team-wrapper">
+                        <img src="../../../media/left.png" class="section1-arrow" onclick="prevTeam()" alt="Back Slide">
+
+                        <div class="team-carousel">
+                            <div class="team-slide active">
+                                <div class="team-member">
+                                    <img src="../../PYRO/Bennett/options/t1be.png" alt="Picture of Bennett">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1ros.png" alt="Picture of Rosaria">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1cho.png" alt="Picture of Chongyun">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1su.png" alt="Picture of Sucrose">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="options/t1kae.png" alt="Picture of Kaeya">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1xi.png" alt="Picture of Xingqiu">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1cho.png" alt="Picture of Chongyun">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Hu-Tao/options/t2ka.png" alt="Picture of Kazuha">
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="../../../media/right.png" class="section1-arrow" onclick="nextTeam()" alt="Next Slide">
+                    </div>
+
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+        <div class="section2">
+            <div class="abilities">
+                <div class="talent-carousel-wrapper">
+                <img src="../../../media/left.png" class="section2-arrow left-arrow" onclick="prevTalent()" alt="Back Slide">
+
+                <div class="talent-carousel">
+                    <!-- Slide 1 -->
+                    <div class="talent-slide active">
+                        <h3 class="talent-title">Talent Priority</h3>
+                        <div class="talent"><img src="abilities/talent1.png" alt="Picture of Demonbane"></div>
+                        <div class="talent"><img src="abilities/talent2.png" alt="Picture of Spirit Blade: Chonghua's Layered Frost"></div>
+                        <div class="talent"><img src="abilities/talent3.png" alt="Picture of Spirit Blade: Cloud-Parting Star"></div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Weapons</h3>
+                        <div class="talent"><img src="../../PYRO/Diluc/abilities/weapon1.png" alt="Picture of Wolf's Gravestone"></div>
+                        <div class="talent"><img src="../../PYRO/Diluc/abilities/weapon2.png" alt="Picture of Serpent Spine"></div>
+                        <div class="talent"><img src="../../GEO/Itto/abilities/weapon1.png" alt="Picture of Redhorn Stonethresher"></div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Artifacts</h3>
+                        <div class="talent"><img src="../../PYRO/Xiangling/abilities/ab1.png" alt="Picture of 4-piece Emblem of Severed Fate"></div>
+                    </div>
+                </div>
+                
+                <img src="../../../media/right.png" class="section2-arrow right-arrow" onclick="nextTalent()" alt="Next Slide">
+                </div>
+
+                <div class="section2-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h1 id="game">Featured Gameplay</h1>
+
+            <div class="game-play">
+                <iframe width="850" height="480"
+                    src="https://www.youtube.com/embed/3gjAQ_VaBi0" title="YouTube video player" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        
+            <h1 id="revs">Character Reviews</h1>
+
+            <div class="boxes">
+                <div class="strength">
+                    <h1>Character Strengths</h1>
+                    <div class="divider">
+                        <p>• Enables niche <u>Cryo infusion builds</u> for the party.</p>
+                        <p>• One of the only few characters who can <b>buff ATK SPD.</b></p>
+                        <p>• Low Elemental Burst energy cost for <i>quick swap Burst.</i></p>
+                    </div>
+                </div>
+
+                <div class="weakness">
+                    <h1>Character Weaknesses</h1>
+                    <div class="divider">
+                        <p>• Slow Normal Attacks as a Main DPS.</p>
+                        <p>• Area of Effect on his Skill is small.</p>
+                        <p>• Few characters benefit from his infusion meta-wise.</p>
+                        <p>• Claymore disrupts Freeze reaction outside of Shatter builds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <script src="optionsChongyun.js"></script>
+    <script src="abilitiesChongyun.js"></script>
+</body>
+</html>

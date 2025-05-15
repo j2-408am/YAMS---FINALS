@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbara | Hydro</title>
+    <link rel="stylesheet" href="../../../elements/element.css">
+    <link rel="stylesheet" href="barbara.css">
+    <link rel="icon" href="../../../media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../../../home.html">
+            <div class="logo">
+                <img src="../../../media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="../../../login.html">LOGIN</a></li>
+                <li><a href="../../../news.html">NEWS</a></li>
+                <li><a href="../../../characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="../../../search.html">SEARCH</a></li>
+                <li><a href="../../../home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section1">
+            <a href="../../../elements/hydrochar.html">
+                <img src="../../../media/back.png" alt="Back Button" class="back-bttn">
+            </a>
+
+            <div class="main-container">
+                <!-- Left side: Character info -->
+                <div class="character-card">
+                    <div class="character-content">
+                        <div class="character-info">
+                            <h2 id="name">Barbara</h2>
+                            <p id="stars">★★★★</p>
+                            <p id="info">
+                                She is the deaconess of the Church of Favonius and a prominent "idol" after learning about them from the intrepid adventurer Alice. She is also the younger sister of the Acting Grand Master Jean.
+                            </p>
+                        </div>
+                        <img src="barbaracard.png" alt="Picture of Barbara" class="barbara-img">
+                    </div>
+                </div>
+
+                <!-- Right side: Best Teams -->
+                <div class="best-teams">
+                    <h3>Best Teams</h3>
+
+                    <div class="team-wrapper">
+                        <img src="../../../media/left.png" class="section1-arrow" onclick="prevTeam()" alt="Back Slide">
+
+                        <div class="team-carousel">
+                            <div class="team-slide active">
+                                <div class="team-member">
+                                    <img src="../../DENDRO/Collei/options/t1nil.png" alt="Picture of Nilou">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t1xi.png" alt="Picture of Xingqiu">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Thoma/options/t1na.png" alt="Picture of Nahida">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1bar.png" alt="Picture of Barbara">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="../../ANEMO/Heizou/options/t1aya.png" alt="Picture of Ayaka">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../ANEMO/Heizou/options/t1she.png" alt="Picture of Shenhe">
+                                </div>
+                                <div class="team-member">
+                                    <img src="options/t1bar.png" alt="Picture of Barbara">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../ANEMO/Jean/options/t1jea.png" alt="Picture of Jean">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="options/t1bar.png" alt="Picture of Barbara">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../GEO/Itto/options/t1fis.png" alt="Picture of Fischl">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../DENDRO/Baizhu/options/t1yae.png" alt="Picture of Yae Miko">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Hu-Tao/options/t2ka.png" alt="Picture of Kazuha">
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="../../../media/right.png" class="section1-arrow" onclick="nextTeam()" alt="Next Slide">
+                    </div>
+
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+        <div class="section2">
+            <div class="abilities">
+                <div class="talent-carousel-wrapper">
+                <img src="../../../media/left.png" class="section2-arrow left-arrow" onclick="prevTalent()" alt="Back Slide">
+
+                <div class="talent-carousel">
+                    <!-- Slide 1 -->
+                    <div class="talent-slide active">
+                        <h3 class="talent-title">Talent Priority</h3>
+                        <div class="talent"><img src="abilities/talent1.png" alt="Picture of Whisper of Water"></div>
+                        <div class="talent"><img src="abilities/talent2.png" alt="Picture of Let the Show Begin"></div>
+                        <div class="talent"><img src="abilities/talent3.png" alt="Picture of Shining Miracle"></div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Weapons</h3>
+                        <div class="talent"><img src="abilities/weapon1.png" alt="Picture of Thrilling Tales of Dragon Slayers"></div>
+                        <div class="talent"><img src="abilities/weapon2.png" alt="Picture of Everlasting Moonglow"></div>
+                        <div class="talent"><img src="../../DENDRO/Baizhu/abilities/weapon2.png" alt="Picture of Prototype Amber"></div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Artifacts</h3>
+                        <div class="talent"><img src="abilities/ab1.png" alt="Picture of 4-piece Maiden Beloved"></div>
+                        <div class="talent"><img src="../../GEO/Noelle/abilities/ab2.png" alt="Picture of 4-piece Instructor"></div>
+                    </div>
+                </div>
+                
+                <img src="../../../media/right.png" class="section2-arrow right-arrow" onclick="nextTalent()" alt="Next Slide">
+                </div>
+
+                <div class="section2-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h1 id="game">Featured Gameplay</h1>
+
+            <div class="game-play">
+                <iframe width="850" height="480"
+                    src="https://www.youtube.com/embed/u6VovhiuQCo?start=179" title="YouTube video player" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        
+            <h1 id="revs">Character Reviews</h1>
+
+            <div class="boxes">
+                <div class="strength">
+                    <h1>Character Strengths</h1>
+                    <div class="divider">
+                        <p>• Elemental Skill can <b>burst heal</b> or <b>heal over time.</b></p>
+                        <p>• Can <u>auto revive characters at <b>C6,</b></u> which gives Barbara the benefit of having a <i>rare safety net.</i></p>
+                        <p>• As a catalyst user, her hydro application is <u>incredibly consistent,</u> allowing her to slot into <i>Dendro-focused teams</i> as an on-field driver for <b>Bloom and Hyperbloom.</b></p>
+                    </div>
+                </div>
+
+                <div class="weakness">
+                    <h1>Character Weaknesses</h1>
+                    <div class="divider">
+                        <p>• One-trick pony character, as most of her kit <b>only revolves</b> around <u>Hydro application and healing.</u></p>
+                        <p>• Skills have <b>long cooldowns,</b> giving her an extremely limited time where she is effective if <u>not played on-field.</u></p>
+                        <p>• Applies the <u>Wet status on to herself and her teammates</u> when casting her <b>Elemental Skill,</b> which may lead to <i>enemies triggering reactions against you.</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <script src="optionsBarbara.js"></script>
+    <script src="abilitiesBarbara.js"></script>
+</body>
+</html>

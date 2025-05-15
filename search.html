@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="search-page">
+    <audio autoplay loop>
+        <source src="media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="search.html" class="active">SEARCH</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="user-msg">
+                <img src="media/icon.png" alt="Genshin Impact Icon" height="50" width="50">
+                <h1><b>Welcome Traveler!</b></h1>
+                <p id="msg"><i>I see you're a curious one. Find the best build for your character today!</i></p>
+
+                <div class="search-wrapper">
+                    <form class="search" id="searchForm">
+                            <!-- placeholder to let user know what they can search with suggestions -->
+                            <input type="text" id="searchBar" placeholder="Search characters, weapons, or artifacts..." autocomplete="off" > 
+                            <ul id="optionList" role="listbox"></ul>
+                            <button type="submit">
+                                <img src="media/search_icon.png" alt="Search">
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <!-- links to the javascript file to compete the feature -->
+    <script src="char.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+</head>
+<body class="login">
+    <audio autoplay loop>
+        <source src="media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="login.html" class="active">LOGIN</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- My main container for login -->
+        <div class="container1">
+            <div class="user-msg">
+                <!-- The usual icon image along with a welcome message for the users -->
+                <img src="media/icon.png" alt="Genshin Impact Icon" height="50" width="50">
+                <h1><b>Welcome Traveler!</b></h1>
+                <p id="msg"><i>The stars remember every journey — even this one. Ready to log back in, Traveler?</i></p>
+                
+                <!-- The login form serves a CONCEPT. No DATA WILL BE COLLECTED -->
+                <!-- The onsubmit will be found on the JavaScript file to make it function properly -->
+                <form class="login-form" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <!-- Username Input -->
+                        <label for="username" class="inf"><b>Username</b></label>
+                        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                    </div>
+                    <div class="form-group">
+                        <!-- Password Input -->
+                        <label for="password" class="inf"><b>Password</b></label>
+                        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    </div>
+                    <!-- The button serves as the submission button to submit the form -->
+                    <button type="submit" id="submit">Submit</button>
+
+                    <!-- An additional element just in case the user doesn't have an account yet -->
+                    <p class="add">Don't have an account? <a href="signup.html">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+    
+    <!-- This is the external JavaScript file to handle the login function -->
+    <script src="login.js"></script>
+</body>
+</html>

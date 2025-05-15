@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Select</title>
+    <link rel="stylesheet" href="char.css">
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+</head>
+<body class="char-page">
+    <audio autoplay loop>
+        <source src="media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="select-element">
+            <img src="media/icon.png" alt="Genshin Impact Icon" height="50" width="50">
+            <h1>Select your element!</h1>
+            <p id="selection">Pick between <b>pyro, geo, dendro, anemo, hydro, cryo, and electro.</b> Then select your chosen character to know more about them!</p>
+        </div>
+        <!-- aligns images in an organized manner -->
+        <div class="main-cont">
+            <!-- user can hover to the character photo which shows the element it represents -->
+            <div class="char-grid">
+                <!-- when clicked, user is lead to the character selection based on the element chosen -->
+                <a href="elements/pyrochar.html" class="char-crd">
+                    <img src="elements/PYRO/pyrochar.png" class="default-img" alt="Bennett">
+                    <img src="elements/PYRO/pyro.png" class="element-img" alt="PYRO" title="PYRO">
+                </a>            
+                <a href="elements/geochar.html" class="char-crd">
+                    <img src="elements/GEO/geochar.png" class="default-img" alt="Zhongli">
+                    <img src="elements/GEO/geo.png" class="element-img" alt="GEO" title="GEO">
+                </a>
+                <a href="elements/dendrochar.html" class="char-crd">
+                    <img src="elements/DENDRO/dendrochar.png" class="default-img" alt="Alhaitham">
+                    <img src="elements/DENDRO/dendro.png" class="element-img" alt="DENDRO" title="DENDRO">
+                </a>
+                <a href="elements/anemochar.html" class="char-crd">
+                    <img src="elements/ANEMO/anemochar.png" class="default-img" alt="Venti">
+                    <img src="elements/ANEMO/anemo.png" class="element-img" alt="ANEMO" title="ANEMO">
+                </a>
+                <a href="elements/hydrochar.html" class="char-crd">
+                    <img src="elements/HYDRO/hydrochar.png" class="default-img" alt="Kokomi">
+                    <img src="elements/HYDRO/hydro.png" class="element-img" alt="HYDRO" title="HYDRO">
+                </a>
+                <a href="elements/cryochar.html" class="char-crd">
+                    <img src="elements/CRYO/cryochar.png" class="default-img" alt="Eula">
+                    <img src="elements/CRYO/cryo.png" class="element-img" alt="CRYO" title="CRYO">
+                </a>
+                <a href="elements/electrochar.html" class="char-crd">
+                    <img src="elements/ELECTRO/electrochar.png" class="default-img" alt="Raiden">
+                    <img src="elements/ELECTRO/electro.png" class="element-img" alt="ELECTRO" title="ELECTRO">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+</body>
+</html>

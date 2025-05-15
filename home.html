@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact Strategy</title>
+    <link rel="stylesheet" href="web.css">
+    <!-- website favicon -->
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="homepage">
+    <!-- autoplay background music that loops (must interact with the website first to activate) -->
+    <audio autoplay loop>
+        <source src="./media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <!-- logo of the game located in the header -->
+        <!-- If clicked, user will be redirected to homepage -->
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <!-- different pages of the website -->
+            <ul class="navi">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="home.html" class="active">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- background media of the homepage -->
+        <div class="vid-background">
+            <video autoplay muted loop playsinline>
+                <source src="media/main.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="logo2">
+            <img src="media/logo.png" alt="Genshin Impact Logo" height="250" width="650">
+            <br><br>
+        </div>
+        <!-- download button links to the website. Download activation only applicable if affiliated with the company Mihoyo -->
+            <div class="btn">
+                <a href="https://genshin.hoyoverse.com/en/home?utm_source=fab&utm_medium=home" target="_blank">DOWNLOAD</a>
+            </div>
+    </main>
+    
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+</body>
+</html>

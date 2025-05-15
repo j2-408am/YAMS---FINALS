@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+</head>
+<!-- Specific class is assigned for styling in the same css file as the other html files -->
+<body class="signup">
+    <!-- Background music that loops -->
+    <audio autoplay loop>
+        <source src="media/opening.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="login.html" class="active">LOGIN</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main container for the signup form -->
+        <div class="container1">
+            <div class="user-msg">
+                <!-- Icon and message to users who wish to signup -->
+                <img src="media/icon.png" alt="Genshin Impact Icon" height="50" width="50">
+                <h1><b>Welcome Traveler!</b></h1>
+                <p id="msg"><i>A new destiny begins with a name. Sign up, Traveler — Teyvat awaits your legend!</i></p>
+
+                <!-- Sign up form with the JavaScript function to make it work -->
+                <form class="login-form" onsubmit="handleSignup(event)">
+                    <div class="form-group">
+                        <!-- User's input email here -->
+                        <label for="email" class="inf"><b>Email</b></label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                    </div>
+
+                    <!-- User inputs chosen username -->
+                    <div class="form-group">
+                        <label for="username" class="inf"><b>Create Username</b></label>
+                        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                    </div>
+
+                    <!-- User inputs chosen password -->
+                    <div class="form-group">
+                        <label for="password" class="inf"><b>Create Password</b></label>
+                        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    </div>
+
+                    <!-- Clickable button to submit signup credentials -->
+                    <button type="submit" id="submit">Submit</button>
+                    <!-- Link to login just in case the user already has an account -->
+                    <p class="add">Already have an account? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+    
+    <!-- Link to the JavaScript file -->
+    <script src="signup.js"></script>
+</body>
+</html>

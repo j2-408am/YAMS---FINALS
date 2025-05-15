@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="media/site.jpg" type="image/jpeg">
+</head>
+<body class="news">
+    <audio autoplay loop>
+        <source src="media/opening.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <a href="home.html">
+            <div class="logo">
+                <img src="./media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="news.html" class="active">NEWS</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container2">
+            <!-- Title -->
+            <div class="msgs">
+                <img src="media/icon.png" alt="Genshin Impact Icon" height="40" width="40">
+                <h3>News & Events</h3>
+            </div>
+        
+            <!-- Carousel wrapper -->
+            <div class="carousel-wrapper">
+                <!-- Arrows -->
+                <img src="media/prev.png" class="arrow left-arrow" onclick="prevNews()" alt="Back Button">
+        
+                <!-- Slides -->
+                <div class="news-slide active">
+                    <a href="https://genshin.hoyoverse.com/en/news/detail/155899" target="_blank">
+                        <img src="media/news1.png" alt="No way, bro! VS No, YOU!">
+                    </a>
+                </div>
+        
+                <div class="news-slide">
+                    <a href="https://genshin.hoyoverse.com/en/news/detail/155811" target="_blank">
+                        <img src="media/news2.jpg" alt="Whirling Waltz Event Details">
+                    </a>
+                </div>
+        
+                <div class="news-slide">
+                    <a href="https://genshin.hoyoverse.com/en/news/detail/155734" target="_blank">
+                        <img src="media/news3.jpg" alt="Another Lovely Day for the Spina di Rosula's President| Notes on Navia">
+                    </a>
+                </div>
+        
+                <div class="news-slide">
+                    <a href="https://genshin.hoyoverse.com/en/news/detail/155784" target="_blank">
+                        <img src="media/news4.jpg" alt="Character Trailer - Escoffier">
+                    </a>
+                </div>
+        
+                <!-- Arrows -->
+                <img src="media/next.png" class="arrow right-arrow" onclick="nextNews()" alt="Next Button">
+            </div>
+        
+            <!-- Dots -->
+            <div class="container2-dots">
+                <span class="dot active" onclick="showNewsSlide(0)"></span>
+                <span class="dot" onclick="showNewsSlide(1)"></span>
+                <span class="dot" onclick="showNewsSlide(2)"></span>
+                <span class="dot" onclick="showNewsSlide(3)"></span>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <script src="news.js"></script>
+</body>
+</html>

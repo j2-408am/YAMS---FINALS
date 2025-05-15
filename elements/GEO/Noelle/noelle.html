@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noelle | Geo</title>
+    <link rel="stylesheet" href="../../../elements/element.css">
+    <link rel="stylesheet" href="noelle.css">
+    <link rel="icon" href="../../../media/site.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../../../home.html">
+            <div class="logo">
+                <img src="../../../media/logo.png" alt="Genshin Impact Logo">
+            </div>
+        </a>
+        <nav>
+            <ul class="navi">
+                <li><a href="../../../login.html">LOGIN</a></li>
+                <li><a href="../../../news.html">NEWS</a></li>
+                <li><a href="../../../characters.html" class="active">CHARACTERS</a></li>
+                <li><a href="../../../search.html">SEARCH</a></li>
+                <li><a href="../../../home.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section1">
+            <a href="../../../elements/geochar.html">
+                <img src="../../../media/back.png" alt="Back Button" class="back-bttn">
+            </a>
+
+            <div class="main-container">
+                <!-- Left side: Character info -->
+                <div class="character-card">
+                    <div class="character-content">
+                        <div class="character-info">
+                            <h2 id="name">Noelle</h2>
+                            <p id="stars">★★★★</p>
+                            <p id="info">
+                                Extremely strong and reliable, Noelle is considered to be "the maid of all maids" in the Knights of Favonius, with many thinking she has the ability to be everywhere all at once.
+                            </p>
+                        </div>
+                        <img src="noellecard.png" alt="Picture of Noelle" class="noelle-img">
+                    </div>
+                </div>
+
+                <!-- Right side: Best Teams -->
+                <div class="best-teams">
+                    <h3>Best Teams</h3>
+
+                    <div class="team-wrapper">
+                        <img src="../../../media/left.png" class="section1-arrow" onclick="prevTeam()" alt="Back Slide">
+
+                        <div class="team-carousel">
+                            <div class="team-slide active">
+                                <div class="team-member">
+                                    <img src="../Gorou/options/t1no.png" alt="Picture of Noelle">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Diluc/options/t2fu.png" alt="Picture of Furina">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../Itto/options/t1go.png" alt="Picture of Gorou">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../Itto/options/t1al.png" alt="Picture of Albedo">
+                                </div>
+                            </div>
+
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <img src="../Gorou/options/t1no.png" alt="Picture of Noelle">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../Itto/options/t1al.png" alt="Picture of Albedo">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../Itto/options/t1go.png" alt="Picture of Gorou">
+                                </div>
+                                <div class="team-member">
+                                    <img src="../../PYRO/Hu-Tao/options/t1zh.png" alt="Picture of Zhongli">
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="../../../media/right.png" class="section1-arrow" onclick="nextTeam()" alt="Next Slide">
+                    </div>
+
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+        <div class="section2">
+            <div class="abilities">
+                <div class="talent-carousel-wrapper">
+                <img src="../../../media/left.png" class="section2-arrow left-arrow" onclick="prevTalent()" alt="Back Slide">
+
+                <div class="talent-carousel">
+                    <!-- Slide 1 -->
+                    <div class="talent-slide active">
+                        <h3 class="talent-title">Talent Priority</h3>
+                        <div class="talent"><img src="abilities/talent1.png" alt="Picture of Favonius Bladework - Maid"></div>
+                        <div class="talent"><img src="abilities/talent2.png" alt="Picture of Breastplate"></div>
+                        <div class="talent"><img src="abilities/talent3.png" alt="Picture of Sweeping Time"></div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Weapons</h3>
+                        <div class="talent"><img src="../Itto/abilities/weapon1.png" alt="Picture of Redhorn Stonethresher"></div>
+                        <div class="talent"><img src="../Itto/abilities/weapon3.png" alt="Picture of Serpent Spine"></div>
+                        <div class="talent"><img src="abilities/weapon1.png" alt="Picture of Skyward Pride"></div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="talent-slide">
+                        <h3 class="talent-title">Recommended Artifacts</h3>
+                        <div class="talent"><img src="../Itto/abilities/ab1.png" alt="Picture of 4-piece Husk of Opulent Dreams"></div>
+                        <div class="talent"><img src="abilities/ab1.png" alt="Picture of 4-piece Retracting Bolide"></div>
+                        <div class="talent"><img src="abilities/ab2.png" alt="Picture of 4-piece Gladiator's Finale"></div>
+                    </div>
+                </div>
+                
+                <img src="../../../media/right.png" class="section2-arrow right-arrow" onclick="nextTalent()" alt="Next Slide">
+                </div>
+
+                <div class="section2-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h1 id="game">Featured Gameplay</h1>
+
+            <div class="game-play">
+                <iframe width="850" height="480"
+                    src="https://www.youtube.com/embed/MNSCR_di29o" title="YouTube video player" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        
+            <h1 id="revs">Character Reviews</h1>
+
+            <div class="boxes">
+                <div class="strength">
+                    <h1>Character Strengths</h1>
+                    <div class="divider">
+                        <p>• Stacking DEF <b>increases</b> her <u>damage, shielding, and healing all at once.</u></p>
+                        <p>• Wide <b>AoE attacks</b> when using Charged Attacks.</p>
+                        <p>• Healing is <b>party-wide</b> and not only for the active character.</p>
+                        <p>• <b>Emergency shielding</b> when active character goes <u>below 30%.</u></p>
+                    </div>
+                </div>
+
+                <div class="weakness">
+                    <h1>Character Weaknesses</h1>
+                    <div class="divider">
+                        <p>• Low Base DMG when not on C6.</p>
+                        <p>• Elemental Skill has a <b>high cooldown,</b> and <u>not ideal</u> for <i>panic shielding or healing.</i></p>
+                        <p>• Has to be <b>on-field</b> to heal your party, especially if built only as a support.</p>
+                        <p>• High Elemental Burst energy cost.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This fan-made website is not affiliated with or endorsed by HoYoverse. Genshin Impact &copy; HoYoverse. All related names, images, and assets belong to them.</p>
+        <p><i>Website design and development by Juliana Yamsuan 2025.</i></p>
+    </footer>
+
+    <script src="optionsNoelle.js"></script>
+    <script src="abilitiesNoelle.js"></script>
+</body>
+</html>

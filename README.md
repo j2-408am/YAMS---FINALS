@@ -1,2 +1,2 @@
 # YAMS---FINALS
-My final website project for web dev
+This repository contains my program files for the website I've designed and programmed. The website I've created is based on the game Genshin Impact, specifically a guide for gamers to know their chosen characters and how to build them to maximize their capabilities. In case there's some error which unables you to access the files, pleaser refer to my Google Drive: https://drive.google.com/drive/folders/1a2J1-JQh-DQwDjeRGnZxA9jmqmV93JGs?usp=sharing

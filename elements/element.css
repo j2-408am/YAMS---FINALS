@@ -76,10 +76,9 @@ body {
 }
 
 .pyro-container {
-    display: absolute;
     border: 5px solid #870101;
     background-color: #f3ce8899;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -127,10 +126,9 @@ body {
 }
 
 .geo-container {
-    display: absolute;
     border: 5px solid #744217;
     background-color: #e2be8ca5;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -153,10 +151,9 @@ body {
 }
 
 .dendro-container {
-    display: absolute;
     border: 5px solid #234531;
     background-color: #c2ccc6a7;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -178,10 +175,9 @@ body {
 }
 
 .anemo-container {
-    display: absolute;
     border: 5px solid #2a5a6e;
     background-color: #dbf2f1bb;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -204,10 +200,9 @@ body {
 }
 
 .hydro-container {
-    display: absolute;
     border: 5px solid #144a71;
     background-color: #defaffb2;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -229,10 +224,9 @@ body {
 }
 
 .cryo-container {
-    display: absolute;
     border: 5px solid #35476a;
     background-color: #e4ebf9a9;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
@@ -254,10 +248,9 @@ body {
 }
 
 .electro-container {
-    display: absolute;
     border: 5px solid #261ac7;
     background-color: #f0eeffb5;
-    opacity: 2;
+    opacity: 1;
     width: 1460px;
     margin: auto;
     border-radius: 32px;
